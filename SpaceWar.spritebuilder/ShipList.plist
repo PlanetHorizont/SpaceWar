@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>alcatraz</string>
+		<key>baseHP</key>
+		<integer>100</integer>
+		<key>baseArmor</key>
+		<integer>0</integer>
+		<key>baseShield</key>
+		<integer>100</integer>
+		<key>weaponSlot</key>
+		<integer>1</integer>
+		<key>equipmentSlot</key>
+		<integer>0</integer>
+		<key>specialAttribute1</key>
+		<string></string>
+		<key>specialAttribute2</key>
+		<string></string>
+		<key>specialAttribute3</key>
+		<string></string>
+		<key>specialAttribute4</key>
+		<string></string>
+		<key>spritePath</key>
+		<string>red/illumRed07.png</string>
+	</dict>
+</array>
+</plist>
