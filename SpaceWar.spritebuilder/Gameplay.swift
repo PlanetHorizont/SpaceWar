@@ -18,6 +18,8 @@ class Gameplay: CCNode {
     
     var touched = false
     
+    var timer = CCTime(0)
+    
     func didLoadFromCCB() {
         userInteractionEnabled = true
         shipSprite = playerShip.shipSprite
@@ -44,6 +46,23 @@ class Gameplay: CCNode {
     
     override func touchEnded(touch: CCTouch!, withEvent event: CCTouchEvent!) {
         touched = false
+    }
+    
+    override func update(delta: CCTime) {
+        timer+=1
+        if timer > 100 {
+            shootBullet()
+            timer = 0
+        }
+    }
+    
+    func shootBullet() {
+        var bullet = playerShip.bullet
+        pNode?.addChild(bullet, z: 2)
+        var bulletPosition = shipSprite!.position
+        bullet.position = bulletPosition
+        println(bulletPosition)
+        
     }
 
 }

@@ -78,19 +78,22 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>Sprites</key>
-		<dict/>
-		<key>army</key>
+		<key>BonusFx</key>
 		<dict>
 			<key>isDirty</key>
 			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>Sprites</key>
+		<dict/>
+		<key>army</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>blue</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
@@ -178,29 +181,21 @@
 		</dict>
 		<key>default</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>green</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>greenglow</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>red</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>

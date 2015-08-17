@@ -65,8 +65,6 @@
 		B6B729791B75F64200ECC3EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729781B75F64200ECC3EE /* Menu.swift */; };
 		B6B729871B76046900ECC3EE /* PlayerShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729861B76046900ECC3EE /* PlayerShip.swift */; };
 		B6B7298F1B762C5400ECC3EE /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B7298E1B762C5400ECC3EE /* Gameplay.swift */; };
-		B6B729911B765DBE00ECC3EE /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729901B765DBE00ECC3EE /* Weapon.swift */; };
-		B6B729931B7663F700ECC3EE /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729921B7663F700ECC3EE /* Projectile.swift */; };
 		B6B7299A1B78F2DE00ECC3EE /* ShipList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6B729991B78F2DE00ECC3EE /* ShipList.plist */; };
 		B6B7299C1B7A416700ECC3EE /* PlayerSavedData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6B7299B1B7A416700ECC3EE /* PlayerSavedData.plist */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -183,8 +181,6 @@
 		B6B729781B75F64200ECC3EE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		B6B729861B76046900ECC3EE /* PlayerShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerShip.swift; sourceTree = "<group>"; };
 		B6B7298E1B762C5400ECC3EE /* Gameplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
-		B6B729901B765DBE00ECC3EE /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
-		B6B729921B7663F700ECC3EE /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		B6B729991B78F2DE00ECC3EE /* ShipList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShipList.plist; sourceTree = "<group>"; };
 		B6B7299B1B7A416700ECC3EE /* PlayerSavedData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerSavedData.plist; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -453,8 +449,6 @@
 				B6B729781B75F64200ECC3EE /* Menu.swift */,
 				B6B729861B76046900ECC3EE /* PlayerShip.swift */,
 				B6B7298E1B762C5400ECC3EE /* Gameplay.swift */,
-				B6B729901B765DBE00ECC3EE /* Weapon.swift */,
-				B6B729921B7663F700ECC3EE /* Projectile.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				B6B729991B78F2DE00ECC3EE /* ShipList.plist */,
 				B6B7299B1B7A416700ECC3EE /* PlayerSavedData.plist */,
@@ -838,8 +832,6 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				B6B7298F1B762C5400ECC3EE /* Gameplay.swift in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
-				B6B729911B765DBE00ECC3EE /* Weapon.swift in Sources */,
-				B6B729931B7663F700ECC3EE /* Projectile.swift in Sources */,
 				B6B729791B75F64200ECC3EE /* Menu.swift in Sources */,
 				B6B729871B76046900ECC3EE /* PlayerShip.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,

@@ -14,12 +14,14 @@ class PlayerShip: NSObject {
     var HP: Double?
     var shipSpritePath: String!
     var shipSprite: CCSprite!
+    var bullet: CCSprite!
     
     
     override init() {
         super.init()
         self.loadShipDataFromPlistFile()
         self.shipSprite = CCSprite(imageNamed: shipSpritePath)
+        loadBullet()
     }
     
     func loadShipDataFromPlistFile() {
@@ -36,6 +38,10 @@ class PlayerShip: NSObject {
         var ship0 = 船名单😃![Int(shipID)] as! NSDictionary
         shipSpritePath = ship0["spritePath"] as! String
         println(shipSpritePath)
+    }
+    
+    func loadBullet() {
+        self.bullet = CCSprite(imageNamed: "BonusFx/sampleGreenBullet.png")
     }
     
 }
