@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Apportable. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Menu: CCNode {
     

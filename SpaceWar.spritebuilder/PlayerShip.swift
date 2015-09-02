@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Apportable. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class PlayerShip: NSObject {
     
@@ -21,7 +21,7 @@ class PlayerShip: NSObject {
         super.init()
         self.loadShipDataFromPlistFile()
         self.shipSprite = CCSprite(imageNamed: shipSpritePath)
-        loadBullet()
+        //loadBullet()
     }
     
     func loadShipDataFromPlistFile() {
@@ -40,8 +40,8 @@ class PlayerShip: NSObject {
         println(shipSpritePath)
     }
     
-    func loadBullet() {
-        self.bullet = CCSprite(imageNamed: "BonusFx/sampleGreenBullet.png")
-    }
+//    func loadBullet() {
+//        self.bullet = CCSprite(imageNamed: "BonusFx/sampleGreenBullet.png")
+//    }
     
 }

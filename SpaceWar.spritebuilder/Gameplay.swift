@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Apportable. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Gameplay: CCNode {
+class Gameplay: CCNode, CCPhysicsCollisionDelegate{
     
     weak var pNode: CCPhysicsNode?
    
@@ -23,7 +23,8 @@ class Gameplay: CCNode {
     func didLoadFromCCB() {
         userInteractionEnabled = true
         shipSprite = playerShip.shipSprite
-        pNode?.addChild(shipSprite)
+        pNode!.collisionDelegate = self
+        pNode!.addChild(shipSprite)
         shipSprite!.position = CGPoint(x: 160, y: 60)
     }
     
@@ -35,6 +36,7 @@ class Gameplay: CCNode {
         
         var move = CCActionMoveTo(duration:0.08, position:touchLocation)
         shipSprite!.runAction(move)
+        
     }
     
     
@@ -50,18 +52,19 @@ class Gameplay: CCNode {
     
     override func update(delta: CCTime) {
         timer+=1
-        if timer > 100 {
+        if timer > 2 {
             shootBullet()
             timer = 0
         }
     }
     
     func shootBullet() {
-        var bullet = playerShip.bullet
-        pNode?.addChild(bullet, z: 2)
-        var bulletPosition = shipSprite!.position
-        bullet.position = bulletPosition
-        println(bulletPosition)
+        
+        var bullet = CCBReader.load("Bullet") as! Bullet
+        
+        bullet.position = shipSprite!.position
+        
+        pNode!.addChild(bullet)
         
     }
 

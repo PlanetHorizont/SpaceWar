@@ -7,8 +7,8 @@ class MainScene: CCNode {
         let menuScene = CCBReader.loadAsScene("Menu")
         CCDirector.sharedDirector().presentScene(menuScene!)
         
-        println("give me 5")
-
+        println("menu scene loaded")
+        
     
     }
     
