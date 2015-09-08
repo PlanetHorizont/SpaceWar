@@ -10,7 +10,13 @@ import Foundation
 
 class Bullet: CCSprite {
     
+    var baseDamage: Double!
+    
     func removeBullet(){
         self.removeFromParent()
+    }
+    
+    func calcDamage() {
+    
     }
 }

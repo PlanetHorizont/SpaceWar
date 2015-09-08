@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>radiantGun</key>
+	<dict>
+		<key>weaponName</key>
+		<string>Radiant Gun</string>
+		<key>bulletCCBPath</key>
+		<string>bullets/01</string>
+		<key>weaponDescription</key>
+		<string>&quot;Shoots radiant blasts at an incredible frequency. Base damage 100 per shot.&quot;</string>
+		<key>baseDamage</key>
+		<integer>100</integer>
+	</dict>
+</dict>
+</plist>

@@ -4,5 +4,11 @@
 <dict>
 	<key>savedShip</key>
 	<integer>0</integer>
+	<key>weapon1</key>
+	<string>radiantGun</string>
+	<key>weapon2</key>
+	<string></string>
+	<key>weapon3</key>
+	<string></string>
 </dict>
 </plist>

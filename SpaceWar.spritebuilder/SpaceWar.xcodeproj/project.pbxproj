@@ -62,6 +62,9 @@
 		927F61B9196C771E000F43EF /* iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F590E188484E7003F4D28 /* iPhone@2x.png */; };
 		927F61BA196C771E000F43EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896D180762440076A88C /* Default.png */; };
 		927F61BB196C771E000F43EF /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
+		B253890C1B9D49F3006199D9 /* WeaponList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B253890B1B9D49F3006199D9 /* WeaponList.plist */; };
+		B2E346141B9BC08800DCA06E /* EnemyShipTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E346131B9BC08800DCA06E /* EnemyShipTypes.swift */; };
+		B2E346181B9BEDFF00DCA06E /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E346171B9BEDFF00DCA06E /* Bullet.swift */; };
 		B6B729791B75F64200ECC3EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729781B75F64200ECC3EE /* Menu.swift */; };
 		B6B729871B76046900ECC3EE /* PlayerShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B729861B76046900ECC3EE /* PlayerShip.swift */; };
 		B6B7298F1B762C5400ECC3EE /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B7298E1B762C5400ECC3EE /* Gameplay.swift */; };
@@ -98,8 +101,8 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
-		D76F32E31B940BCE00CBAC41 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F32E21B940BCE00CBAC41 /* Bullet.swift */; };
-		D7D287B21B96A553009D58A3 /* Level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D287B11B96A553009D58A3 /* Level1.plist */; };
+		D76F32E31B940BCE00CBAC41 /* Bullet01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F32E21B940BCE00CBAC41 /* Bullet01.swift */; };
+		D7D287B21B96A553009D58A3 /* EnemyListLevel1.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D287B11B96A553009D58A3 /* EnemyListLevel1.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +183,9 @@
 		7BF6AF9F1A425F9800FFF9BA /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../../../../Library/SBAndroid/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		927F61BF196C771E000F43EF /* SpaceWar Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceWar Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B253890B1B9D49F3006199D9 /* WeaponList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeaponList.plist; sourceTree = "<group>"; };
+		B2E346131B9BC08800DCA06E /* EnemyShipTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyShipTypes.swift; sourceTree = "<group>"; };
+		B2E346171B9BEDFF00DCA06E /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 		B6B729781B75F64200ECC3EE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		B6B729861B76046900ECC3EE /* PlayerShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerShip.swift; sourceTree = "<group>"; };
 		B6B7298E1B762C5400ECC3EE /* Gameplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
@@ -223,8 +229,8 @@
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
-		D76F32E21B940BCE00CBAC41 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
-		D7D287B11B96A553009D58A3 /* Level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level1.plist; sourceTree = "<group>"; };
+		D76F32E21B940BCE00CBAC41 /* Bullet01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet01.swift; sourceTree = "<group>"; };
+		D7D287B11B96A553009D58A3 /* EnemyListLevel1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnemyListLevel1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,14 +455,17 @@
 			isa = PBXGroup;
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
-				D76F32E21B940BCE00CBAC41 /* Bullet.swift */,
+				D76F32E21B940BCE00CBAC41 /* Bullet01.swift */,
+				B2E346171B9BEDFF00DCA06E /* Bullet.swift */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
 				B6B729781B75F64200ECC3EE /* Menu.swift */,
 				B6B729861B76046900ECC3EE /* PlayerShip.swift */,
+				B2E346131B9BC08800DCA06E /* EnemyShipTypes.swift */,
 				B6B7298E1B762C5400ECC3EE /* Gameplay.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				B6B729991B78F2DE00ECC3EE /* ShipList.plist */,
-				D7D287B11B96A553009D58A3 /* Level1.plist */,
+				B253890B1B9D49F3006199D9 /* WeaponList.plist */,
+				D7D287B11B96A553009D58A3 /* EnemyListLevel1.plist */,
 				B6B7299B1B7A416700ECC3EE /* PlayerSavedData.plist */,
 			);
 			name = Source;
@@ -746,6 +755,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
+				B253890C1B9D49F3006199D9 /* WeaponList.plist in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
@@ -762,7 +772,7 @@
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
-				D7D287B21B96A553009D58A3 /* Level1.plist in Resources */,
+				D7D287B21B96A553009D58A3 /* EnemyListLevel1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,9 +849,11 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				B6B7298F1B762C5400ECC3EE /* Gameplay.swift in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
-				D76F32E31B940BCE00CBAC41 /* Bullet.swift in Sources */,
+				D76F32E31B940BCE00CBAC41 /* Bullet01.swift in Sources */,
 				B6B729791B75F64200ECC3EE /* Menu.swift in Sources */,
 				B6B729871B76046900ECC3EE /* PlayerShip.swift in Sources */,
+				B2E346181B9BEDFF00DCA06E /* Bullet.swift in Sources */,
+				B2E346141B9BC08800DCA06E /* EnemyShipTypes.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

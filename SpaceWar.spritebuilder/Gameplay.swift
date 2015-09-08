@@ -11,6 +11,8 @@ import Foundation
 class Gameplay: CCNode, CCPhysicsCollisionDelegate{
     
     weak var pNode: CCPhysicsNode?
+    
+    weak var contentNode: CCNode?
    
     var playerShip = PlayerShip()
     
@@ -25,14 +27,15 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate{
         shipSprite = playerShip.shipSprite
         pNode!.collisionDelegate = self
         pNode!.addChild(shipSprite)
-        shipSprite!.position = CGPoint(x: 160, y: 60)
+        shipSprite!.position = CGPoint(x: 0, y: 60)
+        
     }
     
     override func touchBegan(touch: CCTouch!, withEvent event: CCTouchEvent!) {
         
         touched = true
         
-        var touchLocation = touch.locationInNode(self)
+        var touchLocation = touch.locationInNode(pNode)
         
         var move = CCActionMoveTo(duration:0.08, position:touchLocation)
         shipSprite!.runAction(move)
@@ -42,7 +45,7 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate{
     
     override func touchMoved(touch: CCTouch!, withEvent event: CCTouchEvent!) {
         
-        var touchLocation = touch.locationInNode(self)
+        var touchLocation = touch.locationInNode(pNode)
         shipSprite!.position = touchLocation
     }
     
@@ -53,19 +56,21 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate{
     override func update(delta: CCTime) {
         timer+=1
         if timer > 2 {
-            shootBullet()
+            playerShip.shootBullet()
             timer = 0
         }
     }
     
-    func shootBullet() {
-        
-        var bullet = CCBReader.load("Bullet") as! Bullet
-        
-        bullet.position = shipSprite!.position
-        
-        pNode!.addChild(bullet)
-        
-    }
+//    func shootBullet() {
+//        
+//        var bullet = CCBReader.load("bullets/01")
+//        
+//        bullet.position = shipSprite!.position
+//        
+//        pNode!.addChild(bullet)
+//        
+//    }
+    
+    
 
 }

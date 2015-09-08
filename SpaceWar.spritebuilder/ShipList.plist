@@ -3,8 +3,10 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>name</key>
-		<string>alcatraz</string>
+		<key></key>
+		<string></string>
+		<key>shipName</key>
+		<string>Alcatraz</string>
 		<key>baseHP</key>
 		<integer>100</integer>
 		<key>baseArmor</key>
@@ -23,8 +25,6 @@
 		<string></string>
 		<key>specialAttribute4</key>
 		<string></string>
-		<key>spritePath</key>
-		<string>red/illumRed07.png</string>
 	</dict>
 </array>
 </plist>

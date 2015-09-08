@@ -40,7 +40,7 @@
 		<key>children</key>
 		<array/>
 		<key>customClass</key>
-		<string>PlayerShip</string>
+		<string></string>
 		<key>displayName</key>
 		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
@@ -56,17 +56,22 @@
 			<key>bodyShape</key>
 			<integer>0</integer>
 			<key>collisionCategories</key>
-			<array/>
+			<array>
+				<string>friendlyShip</string>
+			</array>
 			<key>collisionMask</key>
-			<array/>
+			<array>
+				<string>enemyShip</string>
+				<string>enemyBullet</string>
+			</array>
 			<key>collisionType</key>
-			<string></string>
+			<string>playerShip</string>
 			<key>cornerRadius</key>
 			<real>0.0</real>
 			<key>density</key>
 			<real>1</real>
 			<key>dynamic</key>
-			<true/>
+			<false/>
 			<key>elasticity</key>
 			<real>0.30000001192092896</real>
 			<key>friction</key>
